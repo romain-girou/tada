@@ -1,16 +1,45 @@
-# tada
+# Flutter exercise
 
-A new Flutter project.
+# Organization
 
-## Getting Started
+You have one week to complete this exercise.
 
-This project is a starting point for a Flutter application.
+If it is not already done, we will agree on a date for a technical meeting.
 
-A few resources to get you started if this is your first Flutter project:
+This will allow you to present and defend your project (code, architecture, features, etc.).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Mission
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+You have to build a Flutter application to display a list of blog posts.
+
+You will use the fake JSON REST API provided by [https://jsonplaceholder.typicode.com/].
+
+Here is the list of features that will need to be realized in your application:
+
+- Displaying a list of posts. Inserting and deleting items in the list will need to be animated. Each post preview will have to display :
+    - The name of the editor
+    - The title of the post
+- A search function to filter this list.
+- When the user clicks on one of the articles, the complete article is displayed with :
+    - The title of the post
+    - The name of the writer
+    - A profile picture of the writer (free choice of images)
+    - The content of the post
+    - An image (Free choice of images)
+    - The list of comments containing :
+        - Title of the comment
+        - Email of the author
+        - Content of the comment
+        
+
+Of course, you can make bonuses if you want, for example :
+
+- Delete feature, add post to the list.
+- Add comments.
+- Animations.
+- User profile visualization.
+- Performing unit tests.
+
+You can use the dependencies of your choice.
+
+However, make sure that the basic features are fully functional.
